@@ -1,0 +1,46 @@
+
+body {
+    /* background: #000; */
+    line-height: 1.5;
+    margin: 0 auto;
+}
+
+.c {
+    color: #fff;
+    opacity: 0
+    
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  /*animation-name: fadeIn;*/
+  animation: fadeIn 1s both;
+}
+
+.content {
+    font-size: 35px;
+    padding: 230px 0;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.heart{
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+
+.animated {
+  /*animation-duration: 1s;*/
+   /*animation-fill-mode: both;*/
+}
